@@ -2,6 +2,6 @@
 
 Hej hej tjena
 
-[About]
+[About](/about)
 
 [Read more](/read-more)
