@@ -6,6 +6,10 @@ Hej hej tjena
 
 [Read more](/read-more)
 
+[Articles](/articles)
+
+[Purchase-complete](/purchase-complete)
+
 [Subscribed](/subscribed)
 
 <a href="/subscribed" data-subvalue="50">Subscribe 50!</a>
