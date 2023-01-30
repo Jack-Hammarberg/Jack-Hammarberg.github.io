@@ -6,4 +6,11 @@ Hej hej tjena
 
 [Read more](/read-more)
 
-[Subscribe](/subscribe)
+[Subscribed](/subscribed)
+
+<a href="/subscribed" data-subvalue="50">Subscribe 50!</a>
+<br>
+<a href="/subscribed" data-subvalue="50">Subscribe 250!</a>
+<br>
+<a href="/subscribed" data-subvalue="50">Subscribe 500!</a>
+<br>
