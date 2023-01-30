@@ -6,4 +6,4 @@ Hej hej tjena
 
 [Read more](/read-more)
 
-[Subscribe](/Subscribe)
+[Subscribe](/subscribe)
