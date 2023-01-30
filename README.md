@@ -5,3 +5,5 @@ Hej hej tjena
 [About](/about)
 
 [Read more](/read-more)
+
+[Subscribe](/Subscribe)
