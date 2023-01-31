@@ -16,3 +16,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-JYCBPTG2RX');
 </script>
 
+<script>
+  function sendReadEvent(title, numberOfCharacters){
+    gtag('event','read_article', {
+        "author":"Jack H",
+        "title": title,
+        "number_of_characters": numberOfCharacters,
+    });
+}
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("read-article-1").addEventListener("click", () => {
+        sendReadEvent("Article 1", 50)
+    });
+
+    document.getElementById("read-article-2").addEventListener("click", () => {
+        sendReadEvent("Article 2",100)
+    });
+
+    document.getElementById("read-article-3").addEventListener("click", () => {
+        sendReadEvent("Article 3", 150)
+    });
+  
+});
+  
+  console.log("2023-01-31")
+</script>
