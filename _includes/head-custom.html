@@ -17,9 +17,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <script>
-  function sendReadEvent(title, numberOfCharacters){
+  function sendReadEvent(title, numberOfCharacters) {
     gtag('event','read_article', {
-        "author":"Jack H",
+        "author": author,
         "title": title,
         "number_of_characters": numberOfCharacters,
     });
@@ -28,17 +28,17 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const readArticleButton = document.getElementById("read-article-1")
 
-    if(readArticleButton){
+    if (readArticleButton) {
         readArticleButton.addEventListener("click", () => {
-            sendReadEvent("Article 1", 50)
+            sendReadEvent("Article 1", 50, "Jack H")
         });
     
         document.getElementById("read-article-2").addEventListener("click", () => {
-            sendReadEvent("Article 2", 100)
+            sendReadEvent("Article 2", 100, "Chrille P")
         });
     
         document.getElementById("read-article-3").addEventListener("click", () => {
-            sendReadEvent("Article 3", 150)
+            sendReadEvent("Article 3", 150, "Oskar O")
         });
     }
 
