@@ -17,11 +17,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <script>
-  function sendReadEvent(title, numberOfCharacters, author) {
+  
+function sendReadEvent(title, readArticle, articleName) {
     gtag('event','read_article', {
-        "author": author,
+        "article_name": articleName,
         "title": title,
-        "number_of_characters": numberOfCharacters,
+        "read_article": readArticle,
     });
 }
 document.addEventListener("DOMContentLoaded", () => {
@@ -30,19 +31,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (readArticleButton) {
         readArticleButton.addEventListener("click", () => {
-            sendReadEvent("Article 1", 50, "Jack H")
+            sendReadEvent("Article 1", 5, "Jack H")
         });
     
         document.getElementById("read-article-2").addEventListener("click", () => {
-            sendReadEvent("Article 2", 100, "Chrille P")
+            sendReadEvent("Article 2", 10, "Chrille P")
         });
     
         document.getElementById("read-article-3").addEventListener("click", () => {
-            sendReadEvent("Article 3", 150, "Oskar O")
+            sendReadEvent("Article 3", 15, "Oskar O")
         });
     }
 
 });
-  
-  console.log("2023-01-31 2")
+  console.log("2023-02-03")
 </script>
