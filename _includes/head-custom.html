@@ -18,11 +18,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
   
-function sendReadEvent(title, readArticle, articleName) {
+function sendReadEvent(title, readingTime, articleName) {
     gtag('event','read_article', {
         "article_name": articleName,
         "title": title,
-        "read_article": readArticle,
+        "reading_time": readingTime,
     });
 }
 document.addEventListener("DOMContentLoaded", () => {
@@ -44,5 +44,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
-  console.log("2023-02-03")
+console.log("2023-02-04")
 </script>
