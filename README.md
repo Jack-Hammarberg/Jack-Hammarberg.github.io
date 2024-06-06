@@ -4,5 +4,5 @@ Hej hej tjena
 
 [About](/about)
 
-[Portfolio](/Portfolio)
+[Portfolio](/portfolio)
 
