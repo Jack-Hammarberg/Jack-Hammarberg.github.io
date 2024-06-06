@@ -1,6 +1,6 @@
 # Jack-Hammarberg.github.io
 
-Hej hej tjena
+Hej hej tjena du får bara vara här om du e skön
 
 [About](/about)
 
