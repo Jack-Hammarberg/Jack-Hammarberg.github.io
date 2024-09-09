@@ -1,8 +1,8 @@
 # Jack-Hammarberg.github.io
 
-Hej hej tjena du får bara vara här om du e skön
+Hej hej tjena du får bara vara här om du e skön :)
 
-[About](/about)
+[Custom Google cookie consent script](/GoogleCookieScript.js)
 
-[Portfolio](/portfolio)
+[Baysiansk inferens](/beyes.R)
 
