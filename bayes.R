@@ -34,6 +34,7 @@ plot(AB_test)
 
 
 # Define parameters for the simulation
+# MAKE SURE TO REPLACE THESE VALUES WITH YOUR OWN AB TESTING DATASET
 true_control_rate <- 0.03     # True conversion rate for control group
 true_treatment_rate <- 0.045  # True conversion rate for treatment group
 n_visitors <- 4678            # Number of visitors in each group
