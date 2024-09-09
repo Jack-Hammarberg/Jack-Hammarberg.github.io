@@ -1,4 +1,6 @@
+// make sure to use your own GTM measurement id in the line below
 <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-paste_your_gtm measurement_id_here"></script>
+ 
 <script>
 
  window.dataLayer = window.dataLayer || [];
